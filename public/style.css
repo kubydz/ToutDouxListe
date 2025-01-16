@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    margin: 0;
+    padding: 0;
+    background-image: url(/public/img/fond-noel-defocalise-abstrait_58702-1735.jpg.avif);
+    background-size: cover ;
+    
+}
+
+.container {
+    max-width: 500px;
+    margin: 2rem auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    color:#216593;
+    font-family:  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 2400;
+}
+
+h2 {
+    color:#236b9b;
+    margin-top: 1.5rem;
+}
+
+.input-container {  
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+input[type="text"] {
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 0.5rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+}
+
+li.completed {
+    background-color: #e6e6e6;
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-text {
+    flex-grow: 1;
+}
+
+.task-buttons {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.task-buttons button {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.task-buttons .edit-btn {
+    background-color: #3498db;
+}
+
+.task-buttons .edit-btn:hover {
+    background-color: #2980b9;
+}
+
+.task-buttons .delete-btn {
+    background-color: #e74c3c;
+}
+
+.task-buttons .delete-btn:hover {
+    background-color: #c0392b;
+}
+
+.task-buttons .toggle-btn {
+    background-color: #2ecc71;
+}
+
+.task-buttons .toggle-btn:hover {
+    background-color: #27ae60;
+}
+
+.edit-input {
+    flex-grow: 1;
+    padding: 0.25rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+

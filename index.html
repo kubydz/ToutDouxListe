@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tout Doux Liste</title>
+    <link rel="stylesheet" href="./public/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Tout Doux Liste</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Ajouter une nouvelle tâche...">
+            <button id="addTask">
+                <i data-lucide="plus-circle"></i>
+            </button>
+        </div>
+        <div class="task-lists">
+            <div class="active-tasks">
+                <h2>Tâches actives</h2>
+                <ul id="activeTasks"></ul>
+            </div>
+            <div class="completed-tasks">
+                <h2>Tâches terminées</h2>
+                <ul id="completedTasks"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="./public/main.js"></script>
+</body>
+</html>
