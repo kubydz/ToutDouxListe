@@ -3,8 +3,11 @@ body {
     /* background-color: #f0f0f0; */
     margin: 0;
     padding: 0;
-    background-image: url(/public/img/Colorful-paint-red-green-blue-abstract_2560x1600.jpg);
+    background-image: url(./img/Colorful-paint-red-green-blue-abstract_2560x1600.jpg);
     background-size: cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -15,18 +18,22 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 2rem;
+    background: linear-gradient(135deg, #33339e 0%, #48be64 50%, #832517 100%);
 }
 
 h1 {
     text-align: center;
-    color:#216593;
+    color:#dee4e8;
     font-family:  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 2400;
+   
+    text-shadow: 2px 5px 6px rgb(28, 23, 92);
 }
 
 h2 {
-    color:#236b9b;
+    color:#d4dee4;
     margin-top: 1.5rem;
+    text-shadow: 2px 5px 6px rgb(28, 23, 92);
 }
 
 .input-container {  
@@ -73,9 +80,9 @@ li {
 }
 
 li.completed {
-    background-color: #e6e6e6;
+    background-color:#45a049;
     text-decoration: line-through;
-    color: #888;
+    color: #4d4b4b;
 }
 
 .task-text {
@@ -124,7 +131,7 @@ li.completed {
     flex-grow: 1;
     padding: 0.25rem;
     font-size: 1rem;
-    border: 1px solid #ddd;
+    border: 1px solid #dddddd;
     border-radius: 4px;
 }
 
