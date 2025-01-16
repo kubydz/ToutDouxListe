@@ -1,5 +1,6 @@
+
 body {
-    font-family: 'Roboto';
+    font-family: "Segoe UI Emoji",;
     /* background-color: #f0f0f0; */
     margin: 0;
     padding: 0;
@@ -11,6 +12,16 @@ body {
     
     
     
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(35, 12, 12, 0.63); /* White overlay with 70% opacity */
+    z-index: -1;
 }
 
 .container {
@@ -27,15 +38,14 @@ body {
 
 h1 {
     text-align: center;
-    color:#dee4e8;
+    color:#dfe6ea;
     font-weight: 2400;
     font-size: 40px;
-   
     text-shadow: 8px 6px 6px rgb(28, 23, 92);
 }
 
 h2 {
-    color:#d4dee4;
+    color:#dde4e8;
     margin-top: 1.5rem;
     text-shadow: 2px 5px 6px rgb(28, 23, 92);
     justify-content: center;
@@ -87,9 +97,10 @@ li {
 }
 
 li.completed {
-    background-color:#45a049;
-    text-decoration: line-through;
-    color: #4d4b4b;
+    /* background-color:#0af7066d; */
+    background: linear-gradient(135deg, #3838be7e 0%, #48be648b 50%, #c4412d98 100%);
+    text-decoration: line-through; 
+    color: #ffffff;
 }
 
 .task-text {
