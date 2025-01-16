@@ -20,7 +20,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(35, 12, 12, 0.63); /* White overlay with 70% opacity */
+    background-color: rgba(12, 12, 29, 0.687); /* White overlay with 70% opacity */
     z-index: -1;
 }
 
@@ -75,10 +75,18 @@ button {
     cursor: pointer;
     border-radius: 4px;
     margin-left: 0.5rem;
+   
+}
+@keyframes fadeIn {
+    from { opacity: 1; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 button:hover {
     background-color: #3fa944f6;
+    /* transform:scale(0.9); */
+    animation: fadeIn 1s ease;
+
 }
 
 ul {
