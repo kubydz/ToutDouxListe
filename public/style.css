@@ -1,13 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto';
     /* background-color: #f0f0f0; */
     margin: 0;
     padding: 0;
     background-image: url(./img/Colorful-paint-red-green-blue-abstract_2560x1600.jpg);
-    background-size: cover ;
-    display: flex;
+    background-size: cover;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+    
+    
     
 }
 
@@ -18,22 +20,27 @@ body {
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 2rem;
-    background: linear-gradient(135deg, #33339e 0%, #48be64 50%, #832517 100%);
+    background: linear-gradient(135deg, #33339e 0%, #48be64 50%, #b33420 100%);
+    margin-top: 100px;
+    
 }
 
 h1 {
     text-align: center;
     color:#dee4e8;
-    font-family:  'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 2400;
+    font-size: 40px;
    
-    text-shadow: 2px 5px 6px rgb(28, 23, 92);
+    text-shadow: 8px 6px 6px rgb(28, 23, 92);
 }
 
 h2 {
     color:#d4dee4;
     margin-top: 1.5rem;
     text-shadow: 2px 5px 6px rgb(28, 23, 92);
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .input-container {  
@@ -50,7 +57,7 @@ input[type="text"] {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #e42c2cc6;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -61,7 +68,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #3fa944f6;
 }
 
 ul {
